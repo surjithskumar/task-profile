@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(195, 24, 24);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul a{
+    margin: 20px;
+    font-size: 20px;
+    color: azure;
+    text-decoration: none;
+    
+}
+nav ul a:hover{
+    text-shadow: 2px 3px 4px white;
+    font-size: 22px;
+    
+}
+
+nav h3{
+    color: white;
+    margin-right: 400px;
+    font-size: 25px;
+    background-color: rgb(195, 24, 24);
+    text-shadow: 2px 4px 8px rgb(21, 17, 17);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+video{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    left: 75%;
+    bottom: 40%;
+    color: white;
+}
+.overlay h2{
+    text-shadow: 1px 2px 4px red;
+}
+#home{
+    height: 700px;
+    width: 100%;
+    background-image: url(./images/Shah-Rukh-Khan-\(1\)_updates.webp);
+    background-size: cover;
+    
+}
+.name{
+    position: relative;
+}
+
+
+.name h2{
+    color: rgba(0, 42, 255, 0.925);
+    position: absolute;
+    top: -200px;
+    border: 2px inset rgb(0, 0, 0);
+    margin: 0 50px;
+    padding: 5px;
+    background-color: burlywood;
+    text-shadow: 1px 2px 3px rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+    transition:0.6s;
+}
+.name h2:hover{
+    padding: 10px;
+}
+
+
+#about{
+    width: 100%;
+    position: relative;
+
+}
+h3{
+    background-color: rgb(233, 41, 41);
+    color: white;
+    text-align: center;
+}
+.img{
+    display: flex;
+    
+}
+
+#about h2{
+    text-align: center;
+    color: rgb(171, 21, 21);
+}
+#about p{
+    text-align: justify;
+    margin: 18px;
+}
+#about-but{
+    background-color: rgb(188, 61, 15);
+    color: white;
+    text-shadow: 1px 2px 4px red;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 80%;
+    position: absolute;
+    top: 330px;
+    cursor: pointer;
+    
+}
+
+
+
+img{
+   width:450px;
+   height: 300px;
+   border-radius: 6px;
+   margin-top: 32px;
+}
+
+.gallery{
+    margin: 16px;
+    box-shadow: 2px 4px 6px black;
+}
+
+.gallery img{
+    width: 400px;
+    height: 400px;
+    margin-left: 58px;
+    box-shadow: 1px 2px 4px red;
+    margin-top: 5px;
+    transition: 0.8s;
+    
+}
+.gallery img:hover{
+    filter: drop-shadow(2px 2px red);
+   
+}
+
+.row{
+    display: flex;
+}
+.box{
+    height: 597px;
+    width: 390px;
+    background-color: rgb(181, 96, 65);
+    margin: 10px;
+    transition: 0.5s;
+    
+}
+
+.box img{
+    width:350px;
+    box-shadow: 1px 2px 3px black;
+}
+.box h5{
+text-align: center;
+color: rgb(60, 51, 39);
+}
+.box p{
+    color: aliceblue;
+    text-align: justify;
+}
+.box:hover{
+filter: drop-shadow(3px 3px black);
+scale: 1.05;
+}
+
+footer{
+    background-color: rgb(213, 57, 57);
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer p{
+color: white;
+font-size: 17px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
